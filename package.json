@@ -1,0 +1,39 @@
+{
+  "name": "mantaro-puppet",
+  "version": "0.1.0",
+  "description": "Simple electron-based GUI that automates mantaro's discord bot currency related commands.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "watch": "nodemon -e js,mjs,json,html,css --exec electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "Claudio Gomes <pm@nidralc.com>",
+  "homepage": "nidralc.com/mantaro-puppet",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.2.3",
+    "electron-builder": "^22.9.1",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "install": "^0.13.0",
+    "npm": "^7.5.4",
+    "puppeteer-core": "^7.1.0"
+  },
+  "build": {
+    "appId": "com.mantaro.puppet",
+    "productName": "Mantaro Puppet",
+    "buildDependenciesFromSource": true,
+    "win": {
+      "target": "portable",
+      "icon": "icons/icon.ico"
+    },
+    "linux": {
+      "target": "deb",
+      "icon": "icons/icon.icns"
+    }
+  }
+}

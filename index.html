@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mantaro Puppet</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="titleBar">
+		<b>Mantaro Puppet</b>
+		<div class="titleButtons">
+			<button class="btnMin"><div class="btnIcon">
+				<div class="min"></div>
+			</div></button>
+			<button class="btnClose"><div class="btnIcon">
+				<div class="close1"></div>
+				<div class="close2"></div>
+			</div></button>
+		</div>
+	</div>
+
+	<form class="form">
+		<label for="email">Discord Email</label>
+		<input type="email" name="email" required>
+
+		<label for="pwd">Discord Password</label>
+		<input type="password" name="pwd" required>
+
+		<label for="serverId">Server Id</label>
+		<input type="text" name="serverId" required>
+
+		<label for="channelId">Channel Id</label>
+		<input type="text" name="channelId" required>
+
+		<button type="submit" class="btnStart">Start</button>
+	</form>
+	<!-- Starting, Authorizing, Loading chat, Sending commands, Waiting X seconds-->
+	<div class="progress">
+		<div class="progressText">Starting...</div>
+		<div class="loader">
+			<div class="loader1"></div>
+			<div class="loader2"></div>
+			<div class="loader3"></div>
+			<div class="loader4"></div>
+		</div>
+		<button type="button" class="btnStop">Stop</button>
+		<!-- <div>Run: <span class="runsCounter"></span></div> -->
+	</div>
+	<script src="add.js"></script>
+</body>
+
+</html>
