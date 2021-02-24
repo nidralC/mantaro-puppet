@@ -1,7 +1,8 @@
 # Mantaro Puppet
 
 <img src="https://i.imgur.com/kQxu5HK.png" alt="fanart with the mantaro mascot drawn as a puppet" width="200"/> 
-<sub>*Not an official art and not made for commercial purposes. Just a fanart to represent our free and open source project.</sub>
+<sub>*Not an official art and not made for commercial purposes.</sub>
+
 
 **Mantaro Puppet** is a tool to automatically farm currency in the Mantaro discord bot by sending the **mine, fish, chop, loot and trivia** commands every five minutes, and the **daily** command every 24hrs.
 
