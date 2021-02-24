@@ -5,8 +5,6 @@
 
 **Mantaro Puppet** is a tool to automatically farm currency in the Mantaro discord bot by sending the **mine, fish, chop, loot and trivia** commands every five minutes, and the **daily** command every 24hrs.
 
-- [Mantaro Puppet - AppImage](https://gitlab.com/nidralc/mantaro-puppet/-/raw/master/dist/Mantaro%20Puppet-0.1.0.AppImage)
-
 ### How to use?
 
 Just run the app, fill the fields with the required info and click the 'Start' button.
