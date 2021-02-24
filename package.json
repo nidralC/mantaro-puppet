@@ -28,11 +28,11 @@
     "productName": "Mantaro Puppet",
     "buildDependenciesFromSource": true,
     "win": {
-      "target": "portable",
+      "target": "nsis",
       "icon": "icons/icon.ico"
     },
     "linux": {
-      "target": "deb",
+      "target": ["deb", "rpm"],
       "icon": "icons/icon.icns"
     }
   }
