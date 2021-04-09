@@ -24,3 +24,5 @@ Just run the app, fill the fields with the required info and click the 'Start' b
 ### Prerequisites - Any OS
 
 - You must have 'Google Chrome' browser installed.
+
+### This is a proof of concept.
